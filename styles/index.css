@@ -76,14 +76,7 @@ body{
     gap: 40px;
     margin-top: 40px; 
 } 
-/* .stat-number{
-    font-size: 70px;
-    font-weight: bold;
-    color: #4E47FF;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    
 
-} */
  .stat-number {
     font-size: 0;
 } 
@@ -170,11 +163,43 @@ body{
     font-size: 14px;
 }
 
+.touch-section{
+    display: flex;
+    padding: 137px 150px;
+    gap: 115px;
+
+}
+.column{
+    width:50%;
 
 
-/* .card img{
-    width: 40px;
-    height: 40px;
-    
+}
+.column h1{
+    font-size: 80px;
+    font-weight: bold;
+}
+section input[type="email"] , section input[type="text"] , section textarea{
+          height: 70px;
+          border-radius: 10px;
+          background-color: #FFFFFF;
+          color: 000000;
+          font-size: 20px;
+          display: block;
+          width: 100%;
+          padding: 20px 32px;
+          margin-bottom: 19px;
+          border: none;
+          
+}
+.touch-button{
+     background-color: #4E47FF;
+    font-size: 16px;
+    font-weight: bold;
+    color: #FFFFFF;
+    border: none;
+    padding: 19px 201px; 
+    border-radius: 5px;
+    width: 497px;
+    height: 62px;
+}
 
-} */
